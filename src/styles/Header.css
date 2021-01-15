@@ -1,0 +1,128 @@
+.main-header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.7)), url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    }
+    .header-content{
+        position: relative;
+        padding: 50px 0;
+    }
+    .h2{
+        color:white;
+    }
+    .logo{
+        background-color: #fff !important;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin-left: 47%;
+        margin-top:5%;
+        
+    }
+    .logo h3{
+        color:dodgerblue;
+        text-align: center;
+        font-size: 31px;
+        padding: 3px 0 0 0;
+    }
+    .title{
+    padding: 20px 0;
+    
+    }
+    
+    .form{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .form input{
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 5px;
+        background-color: #fff;
+        border:none;
+        outline: none;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .form select{
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 5px;
+        background-color: #fff;
+        border:none;
+        outline: none;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .back-side{
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .btn-style{
+        outline: none !important;
+        border:none;
+        background-color: #fff;
+    }
+    .nav-bar{
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .nav-bar a{
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+    }
+    .active{
+    border:1px solid #fff;
+    padding: 5px 15px !important;
+    border-radius: 5px;
+    }
+    #body-content{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    }
+    .content-costume{
+    width: 100%;
+    height: 178px; 
+    background-color: #fff;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16);
+    cursor: pointer;
+    }
+    .content-costume:hover{
+    border:1px solid dodgerblue;
+    }
+    .img-content{
+    width: 50%;
+    }
+    .img-content img{
+    width: 100%;
+    object-fit: cover;
+    height: 178px;
+    }
+    .title-content{
+    width: 50%;
+    }
+    .nav-tabs{
+        color:#fff;
+        background-color: dodgerblue;
+    }
+
+    
+    @media screen and (max-width: 768px){
+    .form{
+        margin: 0;
+        width: 100%;
+    }
+    }
+    
+     

@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+h5{
+	font-size: 15px !important;
+	padding: 10px 0;
+}
+
+/*------navbar-brand styling----------------*/
+.navbar-brand
+{
+	background-color: white;
+	color:dodgerblue;
+	padding: 10px 18px;
+	border-radius: 50%;
+	font-size: 25px;
+}
+
+ul li a{
+	color: #fff;
+}
+.active
+{
+	background-color: #fff;
+	color: dodgerblue;
+	border-radius: 20px;
+}
+
+
+/*------------filter-cotent-text styling------------------------*/
+.text{
+	font-size: 20px;
+	color: #111;
+	font-weight: 100;
+	padding: 15px 0;
+}
+/*--------left-content styling-------*/
+.left-content-demo{
+	background-color: #f1f1f1;
+	padding: 5px 0 5px 50px;
+	margin-bottom: 10px;
+}
+.left-content{
+	background-color: #f1f1f1;
+	padding: 5px 0 5px 50px;
+	margin-bottom: 10px;
+}
+.location-content{
+   padding: 10px 0;
+}
+.location-content select{
+	padding: 5px 30px;
+}
+.choice-content{
+	padding: 10px 0;
+}
+.choice-content span{
+	padding-left:10px; 
+}
+.radio-btn-content{
+	padding: 10px 0;
+}
+.radio-btn-content span{
+	padding-left:10px;
+}
+.sort-content{
+	padding: 10px 0;
+}
+.sort-content span{
+	padding-left:10px;
+}
+/*--------------right-content styling--------------------------*/
+.back-filter{
+	background: #f1f1f1;
+	margin-bottom: 10px;
+	cursor:pointer;
+}
+.title{
+	color: #111;
+	padding: 10px 0;
+	text-align: center;
+}
+.title span{
+	font-size: 12px;
+}
+.img-content{
+	width: 100%;
+}
+.navbar-toggler{
+	padding: 5px 30px 0 20px;
+	background-color: dodgerblue;
+	text-align: center;
+	color: white;
+}
+@media only screen and (min-width: 600px) {
+	.navbar-collapse{
+	  display:none ;
+	}
+	.navbar-toggler{
+		display:none ;
+	}
+  }
+  @media only screen and (max-width: 600px) {
+	.left-content{
+	  display:none ;
+	}
+  }
+
+.order-color{
+	background-color: #111 !important;
+}
+.total{
+	background-color:#f1f1f1 ;
+	padding: 5px 15px;
+	border-radius:20px;
+	margin-left: 5px;;
+}
+label{
+padding-left:5px;
+}

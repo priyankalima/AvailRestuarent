@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.section{
+	background-image: url("../images/firstwave.png");
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 9%;
+}
+.left-img{
+	margin-top: 20%;
+}
+.right-form{
+	margin-top: 10%;
+}
+.form-control{
+	width: 97%!important;
+}
+.btn-red{
+	background-color:#e5383b !important;
+	color: #fff !important;
+}
+.facebook{
+	width: 47%;
+	float: left;
+	padding: 5px 20px;
+	margin-right:5px;
+	border:none;
+    border-radius: 2px;
+    margin-left: 1px;
+    background-color: #e5383b;
+    color: #fff;
+}
+.google{
+	width: 47%;
+	float: left;
+	padding: 5px 20px;
+	color: #fff;
+	background-color: #e5383b;
+	margin-left:5px; 
+	border:none;
+	border-radius: 2px;
+}
+form a{
+	color: #e5383b !important;
+	cursor: pointer;
+}
+#signup{
+	display: none;
+}
+#frgtpass{
+	display: none;
+}
+@media only screen and (max-width: 600px) {
+  .section {
+    color:white !important;
+  }
+}
